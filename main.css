@@ -1,7 +1,6 @@
 /* || General Styles */
 
 html {
-	font-size: 14px;
     font-family: 'Roboto', Arial, sans-serif;
     background-color: #eceef1;
     height: 100%;
@@ -54,3 +53,23 @@ body {
     background-image: url(/assets/intuit-logos.png);
     background-position: 562px 27px;
 }
+
+
+/* ||Footer Styles */
+footer {
+    font-size: 12px;
+    line-height: 1.6em;
+    color: #505050;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 90%;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* ||Form Styles */
