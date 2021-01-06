@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Mint SignUp</title>
@@ -11,7 +13,7 @@
     <div class="sign-in">
         <div class="sign-in-prompt">
             <span>Already have and Intuit account?</span><br>
-            <a>I forgot my USER ID or Password</span>
+            <a href="#">I forgot my USER ID or Password</a>
         </div>
         <button class="sign-in-btn">Sign In</button>
     </div>
@@ -23,16 +25,16 @@
         <a id="quickbooks"></a>
         <a id="turbotax"></a>
     </div>
+
     <main class="form-container">
-        <div class="form-header" style="text-align: center; padding-bottom: 20px; color: #393A3D;">
-            <div style="font-size: 24px; font-weight: 400; line-height: 1.1;">Create an Intuit account</div>
-            <div style="padding-top: 20px;">One account for everything Intuit, including Mint.
-            <br><a href style="color: #0077c5;">Learn more</a>
+        <div class="form-header">
+            <div id="top-heading">Create an Intuit account</div>
+            <div>One account for everything Intuit, including Mint.
+            <br><a href="#">Learn more</a>
             </div>
         </div>
-
         <fieldset class="form-input">
-            <div id="form-size">
+            <div>
                 <label>
                     Email address
                 </label>
@@ -40,29 +42,28 @@
                     <input type="email" name="email-address">
                 </div>
             </div>
-            <div id="form-size">
+            <div>
                 <label>
                     Phone (recommended)
                 </label>
                 <div>
                     <input type="tel" name="phone-number">
                 </div>
-                <div style="padding: 5px 0; font-size: 10px;">
+                <div id="call-info">
                     Standard call, messaging or data rates may apply
                 </div>
             </div>
-            <div id="form-size" style="margin-top: 20px;">
+            <div>
                 <label>
                     Password
                 </label>
                 <div>
                     <input type="password" name="password">
-                    <img class="pwd-img" src="assets/unlock.svg">
+                    <img class="pwd-img" src="assets/unlock.svg" alt="unlocked padlock">
                 </div>
             </div>
         </fieldset>
-
-        <div style="padding-bottom: 10px">
+        <div>
             <button id="sign-up-btn">Create Account</button>
         </div>
 
@@ -78,10 +79,10 @@
     </main>
 
     <footer>
-        <div style="display: flex; justify-content: center;">
-            <span><a href=https://www.intuit.com/legal>Legal</a></span>
-            <span style="padding-left: 10px;"><a href="https://www.intuit.com/privacy/statement/">Privacy</a></span>
-            <span style="padding-left: 10px;"><a href="https://www.intuit.com/privacy/statement/">Security</a></span>
+        <div id=footer-links>
+            <a href="https://www.intuit.com/legal">Legal</a>
+            <a href="https://www.intuit.com/privacy/statement/">Privacy</a>
+            <a href="https://www.intuit.com/privacy/statement/">Security</a>
         </div>
         <div>
             <span>
@@ -93,4 +94,7 @@
             </span>
         </div>
     </footer>
+
 </body>
+
+</html>
