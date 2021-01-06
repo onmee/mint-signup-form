@@ -123,8 +123,6 @@ input:focus {
 }
 
 
-
-
 /* ||Form Buttons and terms */
 
 .sign-in { display: none; } /* Not shown when screen resolution is below 760px */
@@ -216,4 +214,8 @@ footer {
         line-height: 1.5;
         color: #505050;
     }
+}
+
+@media screen and (min-width: 760px) {
+    #sign-in-cue { display: none; }
 }
