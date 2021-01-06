@@ -22,7 +22,7 @@ a {
     margin: 0 auto;
     width: 118px;
     height: 35px;
-    background-image: url(/assets/intuit-logos.png);
+    background-image: url(assets/intuit-logos.png);
 }
 
 .more-logos {
@@ -34,7 +34,7 @@ a {
 #mint {
     width: 68px;
     height: 25px;
-    background-image: url(/assets/intuit-logos.png);
+    background-image: url(assets/intuit-logos.png);
     background-position: 310px 27px;
 }
 
@@ -42,7 +42,7 @@ a {
     margin-left: 7px;
     width: 128px;
     height: 25px;
-    background-image: url(/assets/intuit-logos.png);
+    background-image: url(assets/intuit-logos.png);
     background-position: 448px 27px;
 }
 
@@ -50,7 +50,7 @@ a {
     margin-left: 7px;
     width: 103px;
     height: 25px;
-    background-image: url(/assets/intuit-logos.png);
+    background-image: url(assets/intuit-logos.png);
     background-position: 562px 27px;
 }
 
